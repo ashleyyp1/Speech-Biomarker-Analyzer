@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+.env.*
+
+# ML / local artifacts (regenerate after clone)
+models/*.pkl
+features/*.json
+transcripts/*.json
+data/public_prepare_manifest.jsonl
+data/public_audio/
+audio_inputs/*.wav
+
+# Keep empty dirs if present
+!**/.gitkeep
+
+# Jupyter / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
